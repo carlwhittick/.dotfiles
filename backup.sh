@@ -10,3 +10,6 @@ BACKUP_DIR=$BASE_DIR/backups/$DATE_TIME
 mkdir -p $BACKUP_DIR
 
 cp $HOME/.tmux.conf $BACKUP_DIR 2>/dev/null
+
+mv $HOME/.config/nvim $BACKUP_DIR/nvim_config 2>/dev/null
+mv $HOME/.local/share/nvim $BACKUP_DIR/nvim_share 2>/dev/null
