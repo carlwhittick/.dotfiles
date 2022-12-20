@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Exec=/home/<USER>/bin/sxhkd/push-to-talk/startup.sh
+Icon=
+Name=SXHKD
+Comment=Simple X hotkey daemon
+Path=
+Terminal=false
+Type=Application

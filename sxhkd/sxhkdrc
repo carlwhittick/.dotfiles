@@ -1,0 +1,4 @@
+ctrl + space
+  ~/bin/sxhkd/push-to-talk/unmute.sh
+ctrl + @space
+  ~/bin/sxhkd/push-to-talk/mute.sh
