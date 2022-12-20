@@ -50,4 +50,7 @@ fi
 ############
 # Symlinks #
 ############
-sudo ln -sf $BASE_DIR/nvim $HOME/.config/nvim
+
+if ! test -L "$HOME/.config/nvim"; then
+  sudo ln -sf $BASE_DIR/nvim $HOME/.config/nvim
+fi

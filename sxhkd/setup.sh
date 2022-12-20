@@ -10,18 +10,24 @@ AUTO_START_PATH=$HOME/.config/autostart/sxhkd.desktop
 #############################
 mkdir -p $HOME/bin/sxhkd
 
-ln -sf $BASE_DIR/push-to-talk $PTT_SCRIPT_PATH
+if ! test -L "$PTT_SCRIPT_PATH"; then
+  ln -sf $BASE_DIR/push-to-talk $PTT_SCRIPT_PATH
+fi
 
 ########################
 # Move the config file #
 ########################
 mkdir -p $HOME/.config/sxhkd
 
-ln -sf $BASE_DIR/sxhkdrc $CONFIG_FILE_PATH
+if ! test -L "$CONFIG_FILE_PATH"; then
+  ln -sf $BASE_DIR/sxhkdrc $CONFIG_FILE_PATH
+fi
 
 ###################################
 # Move the autostart desktop file #
 ###################################
-ln -sf $BASE_DIR/push-to-talk/sxhkd.desktop $AUTO_START_PATH
+if ! test -L "$AUTO_START_PATH"; then
+  ln -sf $BASE_DIR/push-to-talk/sxhkd.desktop $AUTO_START_PATH
+fi
 
 sed -i "s/<USER>/$USER/" $AUTO_START_PATH
