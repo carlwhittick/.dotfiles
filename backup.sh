@@ -16,3 +16,5 @@ mv $HOME/.config/nvim $BACKUP_DIR/nvim_config 2>/dev/null
 
 cp $HOME/.config/sxhkd/sxhkdrc $BACKUP_DIR 2>/dev/null
 cp $HOME/bin/sxhkd/push-to-talk $BACKUP_DIR 2>/dev/null
+
+mv $HOME/.config/fish/config.fish $BACKUP_DIR 2>/dev/null
