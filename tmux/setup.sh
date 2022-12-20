@@ -12,7 +12,7 @@ fi
 ############
 # Symlinks #
 ############
-sudo ln -sf $BASE_DIR/tmux/.tmux.conf $HOME/.tmux.conf
+sudo ln -sf $BASE_DIR/.tmux.conf $HOME/.tmux.conf
 
 #################
 # Reload config #
