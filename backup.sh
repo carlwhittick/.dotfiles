@@ -20,3 +20,5 @@ cp $HOME/bin/sxhkd/push-to-talk $BACKUP_DIR 2>/dev/null
 mv $HOME/.config/fish/config.fish $BACKUP_DIR 2>/dev/null
 
 mv $HOME/.config/alacritty/alacritty.yml $BACKUP_DIR/alacritty.yml
+
+mv $HOME/.config/ranger $BACKUP_DIR/ranger

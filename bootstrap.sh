@@ -10,6 +10,7 @@ BASE_DIR=$(cd $(dirname "${BASH_SOURCE:-$0}") && pwd)
 ./neovim/setup.sh
 ./sxhkd/setup.sh
 ./fish/setup.sh
+./ranger/setup.sh
 
 ln -sf $BASE_DIR/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 
