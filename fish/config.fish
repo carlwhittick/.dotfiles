@@ -16,6 +16,8 @@ abbr -a vim "nvim"
 abbr -a l "exa -lh -g --icon"
 abbr -a ls "exa --icon"
 
+set -gx EDITOR nvim
+
 set -g fish_color_normal cdd6f4
 set -g fish_color_command 89b4fa
 set -g fish_color_param f2cdcd
