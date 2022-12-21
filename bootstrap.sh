@@ -12,3 +12,5 @@ BASE_DIR=$(cd $(dirname "${BASH_SOURCE:-$0}") && pwd)
 ./fish/setup.sh
 
 ln -sf $BASE_DIR/alacritty.yml $HOME/.config/alacritty/alacritty.yml
+
+./docker.sh
