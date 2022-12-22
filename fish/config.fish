@@ -13,8 +13,22 @@ function .....
 end
 
 abbr -a vim "nvim"
-abbr -a l "exa -lh -g --icon"
-abbr -a ls "exa --icon"
+
+function refresh
+    source ~/.config/fish/config.fish
+end
+
+function l
+    exa -lhg --icons --header --color-scale {$args}
+end
+
+function ls
+    exa --icons {$args}
+end
+
+function lt
+    exa --icons --tree {$args}
+end
 
 set -gx EDITOR nvim
 
