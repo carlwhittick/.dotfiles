@@ -47,6 +47,8 @@ else
   git clone https://github.com/carlwhittick/astronvim_config $BASE_DIR/nvim/lua/user
 fi
 
+nvim  --headless -c 'autocmd User PackerComplete quitall'
+
 ############
 # Symlinks #
 ############
