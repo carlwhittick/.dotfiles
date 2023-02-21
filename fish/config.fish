@@ -61,9 +61,6 @@ end
 function find
     fd $argv
 end
-function j
-    z $argv
-end
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
