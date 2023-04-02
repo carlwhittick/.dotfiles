@@ -31,6 +31,7 @@ function lt
 end
 
 set -gx EDITOR nvim
+set -gx GCM_CREDENTIAL_STORE cache
 
 set -g fish_color_normal cdd6f4
 set -g fish_color_command 89b4fa
