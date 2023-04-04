@@ -4,6 +4,7 @@ php
 composer
 tree-sitter
 xclip
+wl-clipboard
 ripgrep
 bottom
 python
