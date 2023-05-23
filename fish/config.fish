@@ -63,6 +63,8 @@ function find
     fd $argv
 end
 
+fish_add_path "/usr/local/go/bin"
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end

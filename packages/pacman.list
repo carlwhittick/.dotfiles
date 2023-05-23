@@ -26,3 +26,11 @@ exa
 sxhkd
 tmux
 ranger
+hyprland
+hyprpaper
+xdg-desktop-portal-hyprland
+qt5-wayland
+qt6-wayland
+polkit
+polkit-kde-agent
+swayidle
