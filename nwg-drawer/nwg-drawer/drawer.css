@@ -1,4 +1,4 @@
-@import url("moka.css");
+@import url("mocha.css");
 
 window {
   background-color: shade(@base, 0.9);
